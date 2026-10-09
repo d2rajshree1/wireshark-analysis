@@ -1,0 +1,24 @@
+   35 18.643891098 PCSSystemtec_2a:a1:27 → Arcadyan_90:0e:ff ARP 42 Who has 192.168.29.1? Tell 192.168.29.217
+   36 18.647243066 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.217? Tell 192.168.29.1
+   37 18.647267291 PCSSystemtec_2a:a1:27 → Arcadyan_90:0e:ff ARP 42 192.168.29.217 is at 08:00:27:2a:a1:27
+   39 18.649422066 Arcadyan_90:0e:ff → PCSSystemtec_2a:a1:27 ARP 60 192.168.29.1 is at ac:10:07:90:0e:ff
+   79 35.470960288 Arcadyan_90:0e:ff → Intel_2f:b7:8c ARP 60 192.168.29.1 is at ac:10:07:90:0e:ff
+   85 37.089308087 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.169? Tell 192.168.29.1
+   86 37.089308583 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.111? Tell 192.168.29.1
+   87 37.089308645 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.98? Tell 192.168.29.1
+   90 37.906290328 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.169? Tell 192.168.29.1
+   91 38.112753742 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.111? Tell 192.168.29.1
+   92 38.112754116 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.98? Tell 192.168.29.1
+   93 38.932368899 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.169? Tell 192.168.29.1
+   94 38.932370038 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.111? Tell 192.168.29.1
+   97 39.145815526 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.98? Tell 192.168.29.1
+  100 42.007955364 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.105? Tell 192.168.29.1
+  105 44.243177602 PCSSystemtec_2a:a1:27 → Arcadyan_90:0e:ff ARP 42 Who has 192.168.29.1? Tell 192.168.29.217
+  106 44.248076638 Arcadyan_90:0e:ff → PCSSystemtec_2a:a1:27 ARP 60 192.168.29.1 is at ac:10:07:90:0e:ff
+  107 47.128613949 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.217? Tell 192.168.29.1
+  108 47.128643746 PCSSystemtec_2a:a1:27 → Arcadyan_90:0e:ff ARP 42 192.168.29.217 is at 08:00:27:2a:a1:27
+  116 48.029148836 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.217? Tell 192.168.29.1
+  117 48.029177612 PCSSystemtec_2a:a1:27 → Arcadyan_90:0e:ff ARP 42 192.168.29.217 is at 08:00:27:2a:a1:27
+  121 51.224436217 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.232? Tell 192.168.29.1
+  122 53.275690449 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.219? Tell 192.168.29.1
+  129 55.323743450 Arcadyan_90:0e:ff → Broadcast    ARP 60 Who has 192.168.29.26? Tell 192.168.29.1

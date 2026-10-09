@@ -1,0 +1,85 @@
+Frame 89: Packet, 71 bytes on wire (568 bits), 71 bytes captured (568 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct  9, 2026 11:04:50.514604403 EDT
+    UTC Arrival Time: Oct  9, 2026 15:04:50.514604403 UTC
+    Epoch Arrival Time: 1791558290.514604403
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 54.286 microseconds]
+    [Time since reference or first frame: 37.089362969 seconds]
+    Frame Number: 89
+    Frame Length: 71 bytes (568 bits)
+    Capture Length: 71 bytes (568 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:ip:udp:echo]
+    Character encoding: ASCII (0)
+Ethernet II, Src: PCSSystemtec_2a:a1:27 (08:00:27:2a:a1:27), Dst: Arcadyan_90:0e:ff (ac:10:07:90:0e:ff)
+    Destination: Arcadyan_90:0e:ff (ac:10:07:90:0e:ff)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: PCSSystemtec_2a:a1:27 (08:00:27:2a:a1:27)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 5]
+Internet Protocol Version 4, Src: 192.168.29.217, Dst: 192.168.29.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 57
+    Identification: 0x940c (37900)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: ICMP (1)
+    Header Checksum: 0x29cd [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.29.217
+    Destination Address: 192.168.29.1
+    [Stream index: 2]
+Internet Control Message Protocol
+    Type: Destination unreachable (3)
+        [Expert Info (Note/Response): Type indicates an error]
+            [Type indicates an error]
+            [Severity level: Note]
+            [Group: Response]
+    Code: 3 (Port unreachable)
+    Checksum: 0xb942 [correct]
+    [Checksum Status: Good]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.29.1, Dst: 192.168.29.217
+        0100 .... = Version: 4
+        .... 0101 = Header Length: 20 bytes (5)
+        Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+            0000 00.. = Differentiated Services Codepoint: Default (0)
+            .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+        Total Length: 29
+        Identification: 0x2ba0 (11168)
+        010. .... = Flags: 0x2, Don't fragment
+            0... .... = Reserved bit: Not set
+            .1.. .... = Don't fragment: Set
+            ..0. .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment Offset: 0
+        Time to Live: 64
+        Protocol: UDP (17)
+        Header Checksum: 0x5305 [validation disabled]
+        [Header checksum status: Unverified]
+        Source Address: 192.168.29.1
+        Destination Address: 192.168.29.217
+        [Stream index: 2]
+    User Datagram Protocol, Src Port: 53803, Dst Port: 7
+        Source Port: 53803
+        Destination Port: 7
+        Length: 9
+        Checksum: 0x807d [unverified]
+        [Checksum Status: Unverified]
+        [Stream index: 5]
+        UDP payload (1 byte)
+    Echo
+        Echo data: f1
+
