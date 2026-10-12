@@ -1,4 +1,4 @@
-# Task 5 - Capture and Analyze Network Traffic (Kali Linux Terminal)
+# Capture and Analyze Network Traffic (Kali Linux Terminal)
 
 ## Objective
 Capture live packets and identify basic protocols using tshark on Kali Linux.
